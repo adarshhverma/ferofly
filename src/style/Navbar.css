@@ -31,13 +31,12 @@
     text-align: center;
     justify-content: end;
     margin: auto;
-    padding-left: 90px;
   }
   
   .nav-item {
     height: 80px;
     text-transform: uppercase;
-    margin: 10px;
+    
   }
 
   .nav-links {
