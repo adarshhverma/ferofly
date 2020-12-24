@@ -1,0 +1,85 @@
+.about {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 150px;
+}
+.about .head {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 150px;
+  font-weight: 40;
+}
+.about h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: rgb(100, 100, 100);
+  font-weight: 20;
+}
+.about p {
+  font-size: 15px;
+  color: grey;
+  font-family:Arial,Helvetica,sans-serif;
+  font-style: italic;
+
+}
+.parallax2 {
+  width: 950px;
+  margin: 0 auto;
+  /* The image used */
+  background-image: url("https://static.wixstatic.com/media/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.jpg/v1/fill/w_980,h_706,al_c,q_85,usm_0.66_1.00_0.01/84770f_98aabcec66e34956acf748305c555ec3~mv2_d_2500_1658_s_2.webp");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+.rooms {
+  background-color: white;
+  width: 400px !important;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.rooms p {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.rooms button {
+  margin-bottom: 25px;
+  background-color: white;
+  color: black;
+  border: 1px solid black !important;
+}
+.rooms button:hover {
+  background-color: black !important;
+  color: white;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 990px) {
+  .parallax2 {
+    width: 90%;
+  }
+  .about .head {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .rooms {
+    width: 90% !important;
+  }
+}
+.about__head{
+  font-weight: 40;
+}
+.about__btn{
+  color: rgb(156, 155, 155);
+  border: 1px solid rgb(156, 155, 155);
+}

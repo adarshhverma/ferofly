@@ -1,0 +1,30 @@
+.booking{
+    display: flex;
+    justify-content: center;
+    font-weight: 50;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}
+
+.booking__item{
+    display: inline;
+}
+.field{
+    border: 0.5px solid rgb(156, 155, 155);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(156, 155, 155);
+}
+.booking__btn{
+    margin-top: 35px;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .booking{
+        display: none;
+    }
+
+}

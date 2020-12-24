@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html{
+  scroll-behavior: smooth;
+  /* transition-timing-function: ease-in; */
+    transition: all 0.5s;
+}

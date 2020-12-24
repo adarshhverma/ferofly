@@ -1,0 +1,40 @@
+.title {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 10px;
+}
+.title h1 {
+  font-family: serif;
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+.title p {
+  font-family: serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 70;
+}
+.parallax {
+  width: 950px;
+  margin: 0 auto;
+  background-image: url("../res/img/para1.webp");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 990px) {
+  .parallax {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .title {
+    padding-top: 250px;
+  }
+}
